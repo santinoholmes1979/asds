@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets
+.env
+*.key
+*.pem
+
+# Model artifacts (optional: keep if you want to show trained model)
+# models/artifacts/
+
+# Large generated data (optional: keep only small samples)
+# data/*.csv
+
+# Generated outputs (optional)
+# rag/output/

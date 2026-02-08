@@ -1,0 +1,362 @@
+[
+  {
+    "date": "2026-01-18",
+    "aircraft_id": "AC_0034",
+    "y_true": 0.0,
+    "prediction": {
+      "downtime_next_14d_hours": 4.906590152558192,
+      "baseline_hours": 6.134622274157558
+    },
+    "drivers": [
+      {
+        "feature": "num__environment_stress",
+        "meaning": "Environmental stress (current)",
+        "impact_hours": -2.2640965987632593
+      },
+      {
+        "feature": "num__flight_hours",
+        "meaning": "Flight hours (current day)",
+        "impact_hours": 1.171888232660265
+      },
+      {
+        "feature": "num__environment_stress_mean_7d",
+        "meaning": "Environmental stress (current)",
+        "impact_hours": -1.0687708805178324
+      },
+      {
+        "feature": "cat__role_ISR",
+        "meaning": "Role: ISR",
+        "impact_hours": 0.9206797141090974
+      },
+      {
+        "feature": "num__mission_intensity_mean_30d",
+        "meaning": "Mission intensity (current day)",
+        "impact_hours": -0.900389515069419
+      }
+    ]
+  },
+  {
+    "date": "2026-01-19",
+    "aircraft_id": "AC_0034",
+    "y_true": 0.0,
+    "prediction": {
+      "downtime_next_14d_hours": 17.57137005744514,
+      "baseline_hours": 6.134622274157558
+    },
+    "drivers": [
+      {
+        "feature": "num__flight_hours",
+        "meaning": "Flight hours (current day)",
+        "impact_hours": 2.654675320874151
+      },
+      {
+        "feature": "num__mission_intensity_mean_7d",
+        "meaning": "Mission intensity (current day)",
+        "impact_hours": 2.570625628066024
+      },
+      {
+        "feature": "num__base_stockout_rate",
+        "meaning": "Base-wide stockout rate",
+        "impact_hours": 1.9056911174853794
+      },
+      {
+        "feature": "num__base_mean_eta",
+        "meaning": "Base supply lead time (ETA pressure)",
+        "impact_hours": -1.6782756916945878
+      },
+      {
+        "feature": "num__environment_stress_mean_30d",
+        "meaning": "Environmental stress (current)",
+        "impact_hours": 1.3679143508189204
+      }
+    ]
+  },
+  {
+    "date": "2026-01-20",
+    "aircraft_id": "AC_0034",
+    "y_true": 0.0,
+    "prediction": {
+      "downtime_next_14d_hours": 9.852268587026538,
+      "baseline_hours": 6.134622274157558
+    },
+    "drivers": [
+      {
+        "feature": "num__base_mean_eta",
+        "meaning": "Base supply lead time (ETA pressure)",
+        "impact_hours": 3.7905318908508367
+      },
+      {
+        "feature": "num__flight_hours",
+        "meaning": "Flight hours (current day)",
+        "impact_hours": -3.0890483173334737
+      },
+      {
+        "feature": "num__mission_intensity_mean_7d",
+        "meaning": "Mission intensity (current day)",
+        "impact_hours": 2.171457211142047
+      },
+      {
+        "feature": "cat__base_BASE_C",
+        "meaning": "base BASE C",
+        "impact_hours": 1.107805930615466
+      },
+      {
+        "feature": "num__environment_stress",
+        "meaning": "Environmental stress (current)",
+        "impact_hours": -0.8846795156278163
+      }
+    ]
+  },
+  {
+    "date": "2026-01-21",
+    "aircraft_id": "AC_0034",
+    "y_true": 0.0,
+    "prediction": {
+      "downtime_next_14d_hours": 19.52108604076176,
+      "baseline_hours": 6.134622274157558
+    },
+    "drivers": [
+      {
+        "feature": "num__mission_intensity",
+        "meaning": "Mission intensity (current day)",
+        "impact_hours": 2.6852800833791917
+      },
+      {
+        "feature": "num__flight_hours_sum_14d",
+        "meaning": "Flight hours (current day)",
+        "impact_hours": 2.468431148719744
+      },
+      {
+        "feature": "num__flight_hours",
+        "meaning": "Flight hours (current day)",
+        "impact_hours": 1.9492750477375598
+      },
+      {
+        "feature": "num__environment_stress_mean_30d",
+        "meaning": "Environmental stress (current)",
+        "impact_hours": 1.7329354582386078
+      },
+      {
+        "feature": "num__base_mean_eta",
+        "meaning": "Base supply lead time (ETA pressure)",
+        "impact_hours": 1.635918419419845
+      }
+    ]
+  },
+  {
+    "date": "2026-01-22",
+    "aircraft_id": "AC_0034",
+    "y_true": 0.0,
+    "prediction": {
+      "downtime_next_14d_hours": 8.365282496526577,
+      "baseline_hours": 6.134622274157558
+    },
+    "drivers": [
+      {
+        "feature": "num__mission_intensity_mean_7d",
+        "meaning": "Mission intensity (current day)",
+        "impact_hours": -1.621028661603713
+      },
+      {
+        "feature": "num__environment_stress_mean_7d",
+        "meaning": "Environmental stress (current)",
+        "impact_hours": 1.6123470599199168
+      },
+      {
+        "feature": "num__base_mean_eta",
+        "meaning": "Base supply lead time (ETA pressure)",
+        "impact_hours": -1.4649157450188548
+      },
+      {
+        "feature": "num__environment_stress_mean_30d",
+        "meaning": "Environmental stress (current)",
+        "impact_hours": 1.3862918061614173
+      },
+      {
+        "feature": "num__base_stockout_rate",
+        "meaning": "Base-wide stockout rate",
+        "impact_hours": 1.1430248610275704
+      }
+    ]
+  },
+  {
+    "date": "2026-01-23",
+    "aircraft_id": "AC_0034",
+    "y_true": 0.0,
+    "prediction": {
+      "downtime_next_14d_hours": 3.968214713471477,
+      "baseline_hours": 6.134622274157558
+    },
+    "drivers": [
+      {
+        "feature": "num__base_stockout_rate",
+        "meaning": "Base-wide stockout rate",
+        "impact_hours": -2.653287201842198
+      },
+      {
+        "feature": "num__environment_stress_mean_30d",
+        "meaning": "Environmental stress (current)",
+        "impact_hours": 1.556295032187156
+      },
+      {
+        "feature": "num__mission_intensity",
+        "meaning": "Mission intensity (current day)",
+        "impact_hours": -1.0998582990650962
+      },
+      {
+        "feature": "num__mission_intensity_mean_7d",
+        "meaning": "Mission intensity (current day)",
+        "impact_hours": -1.0446961186882389
+      },
+      {
+        "feature": "num__flight_hours_sum_14d",
+        "meaning": "Flight hours (current day)",
+        "impact_hours": 0.826085623366621
+      }
+    ]
+  },
+  {
+    "date": "2026-01-24",
+    "aircraft_id": "AC_0034",
+    "y_true": 0.0,
+    "prediction": {
+      "downtime_next_14d_hours": 0.2874490030390738,
+      "baseline_hours": 6.134622274157558
+    },
+    "drivers": [
+      {
+        "feature": "num__flight_hours",
+        "meaning": "Flight hours (current day)",
+        "impact_hours": -3.624633184226704
+      },
+      {
+        "feature": "num__mission_intensity",
+        "meaning": "Mission intensity (current day)",
+        "impact_hours": -1.179068594586133
+      },
+      {
+        "feature": "num__mission_intensity_mean_7d",
+        "meaning": "Mission intensity (current day)",
+        "impact_hours": -1.0761709751795032
+      },
+      {
+        "feature": "num__environment_stress_mean_14d",
+        "meaning": "Environmental stress (current)",
+        "impact_hours": -0.8112102058399604
+      },
+      {
+        "feature": "num__base_mean_eta",
+        "meaning": "Base supply lead time (ETA pressure)",
+        "impact_hours": 0.7357876596208324
+      }
+    ]
+  },
+  {
+    "date": "2026-01-25",
+    "aircraft_id": "AC_0034",
+    "y_true": 0.0,
+    "prediction": {
+      "downtime_next_14d_hours": 14.49719160344776,
+      "baseline_hours": 6.134622274157558
+    },
+    "drivers": [
+      {
+        "feature": "num__environment_stress",
+        "meaning": "Environmental stress (current)",
+        "impact_hours": 4.193492656427591
+      },
+      {
+        "feature": "num__base_mean_eta",
+        "meaning": "Base supply lead time (ETA pressure)",
+        "impact_hours": -1.893130055209334
+      },
+      {
+        "feature": "num__environment_stress_mean_14d",
+        "meaning": "Environmental stress (current)",
+        "impact_hours": -1.8041830502311678
+      },
+      {
+        "feature": "num__flight_hours_sum_14d",
+        "meaning": "Flight hours (current day)",
+        "impact_hours": 1.6708993944070913
+      },
+      {
+        "feature": "num__base_stockout_rate",
+        "meaning": "Base-wide stockout rate",
+        "impact_hours": 1.5614312104989632
+      }
+    ]
+  },
+  {
+    "date": "2026-01-26",
+    "aircraft_id": "AC_0034",
+    "y_true": 0.0,
+    "prediction": {
+      "downtime_next_14d_hours": 4.097345923601205,
+      "baseline_hours": 6.134622274157558
+    },
+    "drivers": [
+      {
+        "feature": "num__base_mean_eta",
+        "meaning": "Base supply lead time (ETA pressure)",
+        "impact_hours": -2.2320057018567336
+      },
+      {
+        "feature": "num__environment_stress",
+        "meaning": "Environmental stress (current)",
+        "impact_hours": -2.0617726275234585
+      },
+      {
+        "feature": "num__environment_stress_mean_30d",
+        "meaning": "Environmental stress (current)",
+        "impact_hours": 1.254333847207005
+      },
+      {
+        "feature": "num__flight_hours_sum_30d",
+        "meaning": "Flight hours (current day)",
+        "impact_hours": -0.8786370359722923
+      },
+      {
+        "feature": "num__mission_intensity_mean_7d",
+        "meaning": "Mission intensity (current day)",
+        "impact_hours": 0.8620201585216144
+      }
+    ]
+  },
+  {
+    "date": "2026-01-27",
+    "aircraft_id": "AC_0034",
+    "y_true": 0.0,
+    "prediction": {
+      "downtime_next_14d_hours": 12.129614375913324,
+      "baseline_hours": 6.134622274157558
+    },
+    "drivers": [
+      {
+        "feature": "num__base_mean_eta",
+        "meaning": "Base supply lead time (ETA pressure)",
+        "impact_hours": 5.36711394333685
+      },
+      {
+        "feature": "num__base_stockout_rate",
+        "meaning": "Base-wide stockout rate",
+        "impact_hours": -1.1856453025578617
+      },
+      {
+        "feature": "num__flight_hours",
+        "meaning": "Flight hours (current day)",
+        "impact_hours": 1.0347346017350822
+      },
+      {
+        "feature": "num__mission_intensity_mean_30d",
+        "meaning": "Mission intensity (current day)",
+        "impact_hours": -0.9559208716914358
+      },
+      {
+        "feature": "cat__role_ISR",
+        "meaning": "Role: ISR",
+        "impact_hours": 0.954999278517189
+      }
+    ]
+  }
+]

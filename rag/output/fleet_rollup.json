@@ -1,0 +1,205 @@
+{
+  "fleet_metrics": {
+    "window_start": "2026-01-31",
+    "window_end": "2026-02-06",
+    "aircraft_in_sample": 7,
+    "avg_pred_14d_hours": 5.77550592473353,
+    "p80_pred_14d_hours": 7.502202514815507,
+    "risk_counts": {
+      "LOW": 1,
+      "MODERATE": 5,
+      "ELEVATED": 1
+    },
+    "stoplight": "AMBER",
+    "stoplight_summary": "Localized or emerging readiness risk; monitor and mitigate."
+  },
+  "top_aircraft": [
+    {
+      "aircraft_id": "AC_0036",
+      "date": "2026-02-06 00:00:00",
+      "base": "BASE_B",
+      "unit_id": "UNIT_02",
+      "role": "TRAIN",
+      "status_start": "FMC",
+      "y_pred": 10.866114731530502,
+      "risk": "ELEVATED",
+      "top_5_drivers": "[('num__base_mean_eta', 3.085464769285296), ('num__mission_intensity_mean_7d', 2.878987739537602), ('num__environment_stress', -1.1152294800055775), ('num__environment_stress_mean_7d', -0.9031909518830278), ('cat__base_BASE_A', 0.7817046076332405)]"
+    },
+    {
+      "aircraft_id": "AC_0034",
+      "date": "2026-02-06 00:00:00",
+      "base": "BASE_B",
+      "unit_id": "UNIT_04",
+      "role": "ISR",
+      "status_start": "FMC",
+      "y_pred": 7.575046082572905,
+      "risk": "MODERATE",
+      "top_5_drivers": "[('num__flight_hours_sum_30d', -2.3309552505360647), ('num__mission_intensity_mean_14d', 1.5032521838447235), ('num__base_mean_eta', 1.175464141749398), ('num__flight_hours', 1.104568609725503), ('num__flight_hours_sum_7d', -0.832480985089904)]"
+    },
+    {
+      "aircraft_id": "AC_0038",
+      "date": "2026-02-06 00:00:00",
+      "base": "BASE_B",
+      "unit_id": "UNIT_04",
+      "role": "TRAIN",
+      "status_start": "PMC",
+      "y_pred": 7.2108282437859135,
+      "risk": "MODERATE",
+      "top_5_drivers": "[('num__base_mean_eta', 2.397141597549123), ('num__flight_hours_sum_30d', -2.037921242425839), ('num__environment_stress', -1.7955467991884606), ('num__mission_intensity_mean_30d', -1.070035755837993), ('num__flight_hours', 1.0511653658654996)]"
+    },
+    {
+      "aircraft_id": "AC_0037",
+      "date": "2026-02-06 00:00:00",
+      "base": "BASE_B",
+      "unit_id": "UNIT_03",
+      "role": "STRIKE",
+      "status_start": "FMC",
+      "y_pred": 6.596445823515641,
+      "risk": "MODERATE",
+      "top_5_drivers": "[('num__flight_hours_sum_14d', 2.034727086085847), ('num__base_mean_eta', 1.8441870100168551), ('num__flight_hours_sum_30d', -1.2546036356970112), ('num__mission_intensity', -0.9538081755792038), ('num__environment_stress_mean_14d', -0.8987431950756021)]"
+    },
+    {
+      "aircraft_id": "AC_0035",
+      "date": "2026-02-06 00:00:00",
+      "base": "BASE_C",
+      "unit_id": "UNIT_01",
+      "role": "TRAIN",
+      "status_start": "FMC",
+      "y_pred": 4.435304807030587,
+      "risk": "MODERATE",
+      "top_5_drivers": "[('num__flight_hours', -2.4033470758692386), ('num__base_mean_eta', 1.8962156646684962), ('cat__base_BASE_C', -1.7598845581813307), ('num__eta_days_mean_30d', 1.044989132011543), ('num__mission_intensity_mean_7d', -1.0249972835596786)]"
+    },
+    {
+      "aircraft_id": "AC_0039",
+      "date": "2026-02-06 00:00:00",
+      "base": "BASE_A",
+      "unit_id": "UNIT_03",
+      "role": "STRIKE",
+      "status_start": "FMC",
+      "y_pred": 2.530004036370184,
+      "risk": "MODERATE",
+      "top_5_drivers": "[('num__flight_hours_sum_30d', -1.0576364630961381), ('num__environment_stress_mean_30d', -0.979743986497203), ('num__mission_intensity_mean_30d', -0.9470391350200186), ('num__flight_hours', -0.9380138514657934), ('num__environment_stress_mean_7d', -0.9366966669921624)]"
+    },
+    {
+      "aircraft_id": "AC_0040",
+      "date": "2026-02-06 00:00:00",
+      "base": "BASE_A",
+      "unit_id": "UNIT_01",
+      "role": "TRAIN",
+      "status_start": "PMC",
+      "y_pred": 1.21479774832897,
+      "risk": "LOW",
+      "top_5_drivers": "[('num__environment_stress', -1.8194997480442145), ('num__mission_intensity', -0.8111978676219181), ('num__environment_stress_mean_7d', -0.586072279071583), ('num__flight_hours_sum_14d', 0.5163950242322449), ('num__base_mean_eta', -0.4590404864013619)]"
+    }
+  ],
+  "base_rollup": [
+    {
+      "base": "BASE_B",
+      "aircraft_count": 4,
+      "avg_pred_14d_hours": 8.06210872035124,
+      "p80_pred_14d_hours": 8.891473542155945,
+      "elevated_count": 1,
+      "moderate_count": 3
+    },
+    {
+      "base": "BASE_C",
+      "aircraft_count": 1,
+      "avg_pred_14d_hours": 4.435304807030587,
+      "p80_pred_14d_hours": 4.435304807030587,
+      "elevated_count": 0,
+      "moderate_count": 1
+    },
+    {
+      "base": "BASE_A",
+      "aircraft_count": 2,
+      "avg_pred_14d_hours": 1.8724008923495772,
+      "p80_pred_14d_hours": 2.2669627787619415,
+      "elevated_count": 0,
+      "moderate_count": 1
+    }
+  ],
+  "fleet_top_drivers_mean_abs_shap": [
+    {
+      "feature": "num__base_mean_eta",
+      "mean_abs_impact_hours": 1.7337433114073044
+    },
+    {
+      "feature": "num__flight_hours_sum_30d",
+      "mean_abs_impact_hours": 1.2198244504297515
+    },
+    {
+      "feature": "num__environment_stress",
+      "mean_abs_impact_hours": 1.1343012422458085
+    },
+    {
+      "feature": "num__base_stockout_rate",
+      "mean_abs_impact_hours": 1.0406991492778845
+    },
+    {
+      "feature": "num__flight_hours",
+      "mean_abs_impact_hours": 0.8896808849300334
+    },
+    {
+      "feature": "num__mission_intensity",
+      "mean_abs_impact_hours": 0.7833008221380293
+    },
+    {
+      "feature": "num__mission_intensity_mean_7d",
+      "mean_abs_impact_hours": 0.7101234273185284
+    },
+    {
+      "feature": "num__mission_intensity_mean_30d",
+      "mean_abs_impact_hours": 0.6351207579251713
+    },
+    {
+      "feature": "num__environment_stress_mean_7d",
+      "mean_abs_impact_hours": 0.5650029614230457
+    },
+    {
+      "feature": "num__environment_stress_mean_14d",
+      "mean_abs_impact_hours": 0.5609554864360738
+    }
+  ],
+  "common_local_driver_counts_top10": [
+    {
+      "feature": "num__base_mean_eta",
+      "count_in_top10_aircraft": 6
+    },
+    {
+      "feature": "num__flight_hours_sum_30d",
+      "count_in_top10_aircraft": 4
+    },
+    {
+      "feature": "num__flight_hours",
+      "count_in_top10_aircraft": 4
+    },
+    {
+      "feature": "num__environment_stress",
+      "count_in_top10_aircraft": 3
+    },
+    {
+      "feature": "num__environment_stress_mean_7d",
+      "count_in_top10_aircraft": 3
+    },
+    {
+      "feature": "num__mission_intensity_mean_7d",
+      "count_in_top10_aircraft": 2
+    },
+    {
+      "feature": "num__mission_intensity_mean_30d",
+      "count_in_top10_aircraft": 2
+    },
+    {
+      "feature": "num__flight_hours_sum_14d",
+      "count_in_top10_aircraft": 2
+    },
+    {
+      "feature": "num__mission_intensity",
+      "count_in_top10_aircraft": 2
+    },
+    {
+      "feature": "cat__base_BASE_A",
+      "count_in_top10_aircraft": 1
+    }
+  ]
+}
