@@ -1,114 +1,58 @@
-\# Aircraft Sustainment Decision Support (ASDS)
+# ASDS – AI Sustainment Decision Support System
 
+ASDS is an AI-enabled decision-support platform that models how aerospace and defense organizations use data to predict system failures, prioritize maintenance, and optimize mission readiness.
 
+The system uses machine learning to forecast aircraft downtime, applies explainable AI (SHAP) to justify predictions, and generates actionable outputs for operators and leadership.
 
-\*\*Explainable AI for aircraft readiness, downtime prediction, and sustainment decision-making\*\*
-
-
-
----
-
-
-
-\## Executive Summary
-
-
-
-ASDS is an \*\*offline-first, explainable AI decision-support system\*\* that predicts near-term aircraft downtime and translates those predictions into \*\*actionable readiness briefs\*\* for commanders and sustainment leaders.
-
-
-
-Rather than predicting failures in isolation, ASDS forecasts \*\*14-day aircraft downtime (hours)\*\* and explains the operational and logistics drivers behind that risk using \*\*SHAP-based explainability\*\*.
-
-
-
-The system is designed to operate in \*\*disconnected or classified environments\*\*, with cloud-based GenAI as an optional narrative layer—not a dependency.
-
+ASDS demonstrates how raw operational data can be transformed into mission-relevant insights that support sustainment planning and readiness decisions in constrained or disconnected environments.
 
 
 ---
 
 
+## What This System Does
 
-\## What Problem This Solves
-
-
-
-Traditional predictive maintenance answers:
-
-> \*“Will a component fail?”\*
-
-
-
-ASDS answers:
-
-> \*\*“How much readiness risk exists, why does it exist, and what should leadership do about it?”\*\*
-
-
-
-This reframes maintenance analytics into \*\*operational decision support\*\*.
-
+- Predicts aircraft/component downtime using machine learning models
+- Estimates short-term mission readiness across a simulated fleet
+- Provides explainable AI outputs (SHAP) to justify predictions
+- Generates decision-support insights for maintenance prioritization
+- Simulates operational use in disconnected or resource-constrained environments
 
 
 ---
 
 
+## Why This Matters
 
-\## Core Capabilities
+Modern defense systems require data-driven decision-making to maintain operational readiness.
 
+ASDS demonstrates how AI can be used to:
 
+- Anticipate failures before they impact operations
+- Improve sustainment efficiency
+- Support mission readiness planning
+- Provide explainable insights to human decision-makers
 
-\### 🔹 Predictive Downtime Modeling
-
-\- Predicts \*\*next 14-day aircraft downtime (hours)\*\*
-
-\- Regression model (LightGBM)
-
-\- Compares operational-only vs. logistics-augmented models
-
-\- Selects best model empirically
-
-
-
-\### 🔹 Explainability by Design
-
-\- Every prediction is locally explainable via \*\*SHAP\*\*
-
-\- Identifies which factors increased or reduced downtime
-
-\- Enables auditability and human trust
-
-
-
-\### 🔹 Decision-Ready Outputs
-
-\- \*\*Aircraft-level briefs\*\*
-
-&nbsp; - Predicted downtime
-
-&nbsp; - Risk level (LOW / MODERATE / ELEVATED)
-
-&nbsp; - Top contributing drivers (± hours)
-
-\- \*\*Fleet-level rollup\*\*
-
-&nbsp; - Stoplight executive summary (GREEN / AMBER / RED)
-
-&nbsp; - Top-risk aircraft
-
-&nbsp; - Base-level readiness aggregation
-
-&nbsp; - Rule-based recommended actions
-
+This approach aligns with real-world aerospace and defense challenges, where system availability directly impacts mission success
 
 
 ---
 
+## System Architecture
 
+1. Data Ingestion  
+   Simulated aircraft operational and maintenance data
 
-\## System Architecture
+2. Feature Engineering  
+   Aggregation of usage patterns, failure indicators, and system stress metrics
 
+3. Machine Learning Model  
+   Predicts likelihood of downtime within a defined time horizon
 
+4. Explainability Layer  
+   SHAP-based analysis to identify key drivers of predicted failures
 
+5. Decision Support Output  
+   Fleet readiness summaries and recommended maintenance actions
 
 
