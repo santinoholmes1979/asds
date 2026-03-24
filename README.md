@@ -78,20 +78,20 @@ This approach aligns with real-world aerospace and defense challenges, where sys
 ## Platform Screenshots
 
 ### AI-Generated Mission Brief (Elevated Risk)
-![Mission Brief Elevated](asds/screenshots/mission_brief_elevated_risk.png)
+![Mission Brief Elevated](screenshots/mission_brief_elevated_risk.png)
 
 This output demonstrates how ASDS translates model predictions and SHAP-based explainability into mission-relevant insights, highlighting elevated risk conditions and key operational drivers.
 
 ---
 
 ### Explainable AI (SHAP Attribution)
-![SHAP Analysis](asds/screenshots/shap_explainability.png)
+![SHAP Analysis](screenshots/shap_explainability.png)
 
 ASDS incorporates explainable AI to identify the primary factors driving predicted downtime, enabling transparent and defensible decision-making.
 
 ---
 
 ### AI-Generated Mission Brief (Low Risk Scenario)
-![Mission Brief Low](asds/screenshots/mission_brief_low_risk.png)
+![Mission Brief Low](screenshots/mission_brief_low_risk.png)
 
 The system captures variability across operating conditions, providing context-aware outputs that reflect both elevated and reduced risk scenarios across the fleet.
